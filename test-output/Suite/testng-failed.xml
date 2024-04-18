@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="VtigerCrm(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.evs.vtiger.testScript.InventoryInvoiceTestScript">
+        <methods>
+          <include name="CreateInvoice"/>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.InventoryInvoiceTestScript -->
+      <class name="com.evs.vtiger.testScript.MarketingLeadsExportTestscript">
+        <methods>
+          <include name="verifyVT0044"/>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingLeadsExportTestscript -->
+      <class name="com.evs.vtiger.testScript.MarketingContactTestScript">
+        <methods>
+          <include name="vt0031createNewMarketingContact"/>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingContactTestScript -->
+      <class name="com.evs.vtiger.testScript.MarketingAccountSearchTestScript">
+        <methods>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="verifyVT001SearchAccount"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingAccountSearchTestScript -->
+      <class name="com.evs.vtiger.testScript.SalesDocumentsTestScript">
+        <methods>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="verifyVT0046SalesDocuments"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.SalesDocumentsTestScript -->
+      <class name="com.evs.vtiger.testScript.MarketingLeadsTestScript">
+        <methods>
+          <include name="verifyvt0030CreadsNewLeads"/>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingLeadsTestScript -->
+      <class name="com.evs.vtiger.testScript.MarketingDocumetnsTestScript">
+        <methods>
+          <include name="aftersuit"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="verifyVT0040MarketingDocuments"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingDocumetnsTestScript -->
+      <class name="com.evs.vtiger.testScript.MarketingAccountTestScript">
+        <methods>
+          <include name="aftersuit"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MarketingAccountTestScript -->
+      <class name="com.evs.vtiger.testScript.MainSubmoduleTestscript">
+        <methods>
+          <include name="verifyVT0047mainSubmodule"/>
+          <include name="aftersuit"/>
+          <include name="m2method"/>
+          <include name="beforeClass"/>
+          <include name="beforesuit"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.evs.vtiger.testScript.MainSubmoduleTestscript -->
+    </classes>
+  </test> <!-- VtigerCrm(failed) -->
+</suite> <!-- Failed suite [Suite] -->
